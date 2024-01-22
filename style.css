@@ -21,7 +21,26 @@ time, mark, audio, video {
 	vertical-align: baseline;
     box-sizing: border-box;
 }
-
+h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: rgb(255, 255, 255);
+}
+input[type="date"]{
+    background-color: #fcecf2;
+    padding: 15px;
+    color: rgb(46, 46, 46);
+    font-size: 24px;    
+    border: none;
+    outline: none;
+    border-radius: 0.8em;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #fcecf2;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 body {
     margin: 0; 
     font-family: 'Poppins', sans-serif;
